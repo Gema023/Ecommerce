@@ -1,0 +1,31 @@
+/*INPUT*/
+.form{
+	display: flex;
+	justify-content: space-between;
+	background-color: #f1f1f2;
+	width: 100%;
+	max-width: 23.938rem;
+	padding: 0.75rem 1.5rem;
+	margin: 1.5rem 0rem 1.5rem 1.5rem;
+}
+.input_search{
+	text-decoration: none;
+	background-color: #F1F1F2;
+	border: none;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #000000;
+}
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+	height: 46px;
+    padding-left: 0.75rem;
+    margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+    background-color: #F1F1F2;
+    border-radius: 8px;
+}

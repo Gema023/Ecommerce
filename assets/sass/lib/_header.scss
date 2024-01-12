@@ -1,0 +1,47 @@
+/*HEADER*/
+.header{
+	width: 100%;
+  	height: 68px;
+  	position: fixed;
+  	background: #B7916A;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.logo_header{
+	float: left;
+	padding: 12px 0 0 20px;
+}
+
+.nav_list{
+	gap: 40px;
+}
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+	padding-top: 12px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 28px;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.nav_icons_photo{
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+}

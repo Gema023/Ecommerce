@@ -1,0 +1,39 @@
+/*GALERÍA IMÁGENES*/    
+#caja{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}   
+
+.caja_mini{
+  display: flex;
+    justify-content: center;
+    margin: 20px;
+    .mini{
+      width: 30px;
+        height: 30px;
+        margin: 2px;
+        border-radius: 25px;
+        filter: grayscale(100%);
+        &.active{
+          border: 3px solid #C63441;
+            filter: grayscale(0%);
+        }
+    }
+}   
+
+.controles{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    #izq, #dcha{
+      width: 30px;
+        height: 30px;
+        margin: 2px;
+        border-radius: 80px;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}

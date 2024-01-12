@@ -1,0 +1,17 @@
+/*CARRITO*/
+.carrito-icon {
+	position: relative;
+	cursor: pointer;
+}
+  
+.dropdown-content {
+	position: absolute;
+	background-color: #EAE6DD;
+	width: 228px;
+	min-width: 200px;
+	padding: 10px;
+}
+  
+.dropdown-content.show {
+	display: block;
+}

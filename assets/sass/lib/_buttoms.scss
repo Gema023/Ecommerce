@@ -1,0 +1,73 @@
+/*BOTONES*/
+.white_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 40px;
+	background: #FFFFFF;
+	border-radius: 0.25rem;
+	border: none;
+	gap: 12px;
+	cursor: pointer;
+}
+.white_button:hover{
+	background: #e5c5c5;
+}
+.red_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 40px;
+	color: #FFFFFF;
+	background: #C63441;
+	border-radius: 0.25rem;
+	border: none;
+	cursor: pointer;
+}
+.red_button:hover{
+	background: rgb(152, 32, 54);
+}
+.black_large_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 2.25rem;
+	color: #FFFFFF;
+	background: #2D2D2B;
+	border-radius: 0.25rem;
+	border: none;
+	cursor: pointer;
+}
+.black_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 8rem;
+	height: 2.25rem;
+	color: #FFFFFF;
+	background: #2D2D2B;
+	border-radius: 0.25rem;
+	border: none;
+	cursor: pointer;
+}
+.search_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 98.2px;
+	height: 46px;
+	color: #FFFFFF;
+	background: #2D2D2B;
+	border-radius: 0.25rem;
+	border: none;
+	cursor: pointer;
+}
+.buttons_carrito{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}
